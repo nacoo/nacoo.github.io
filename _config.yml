@@ -18,10 +18,10 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: 云叔的云图
-email: 51450505@qq.com
+title: 向往云图
+email: 
 description: >- # this means to ignore newlines until "baseurl:"
- 云叔的世界丰富多彩，与君共赏。
+
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 github_username:  nacoo
@@ -30,6 +30,13 @@ github_username:  nacoo
 theme: minima
 plugins:
   - jekyll-feed
+
+permalink: /:year/:month/:title.html
+paginate: 1
+pagenate_path: "article/:num"
+
+markdown: kramdown
+highligter: rounge
 
 # Exclude from processing.
 # The following items will not be processed, by default.
