@@ -30,7 +30,7 @@ github_username:  nacoo
 theme: minima
 plugins:
   - jekyll-feed
-
+  
 permalink: /:year/:month/:title.html
 paginate: 1
 pagenate_path: "article/:num"
@@ -48,13 +48,14 @@ highligter: rounge
 #
 # Excluded items can be processed by explicitly listing the directories or
 # their entries' file path in the `include:` list.
-#
-# exclude:
-#   - .sass-cache/
-#   - .jekyll-cache/
-#   - gemfiles/
-#   - Gemfile
-#   - Gemfile.lock
+
+
+exclude:
+  - .sass-cache/
+  - .jekyll-cache/
+  - gemfiles/
+  - Gemfile
+  - Gemfile.lock
 #   - node_modules/
 #   - vendor/bundle/
 #   - vendor/cache/
