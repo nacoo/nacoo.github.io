@@ -30,6 +30,8 @@ github_username:  nacoo
 theme: minima
 plugins:
   - jekyll-feed
+  - jekyll-admin
+ # - jekyll-paginate
   
 permalink: /:year/:month/:title.html
 paginate: 1
