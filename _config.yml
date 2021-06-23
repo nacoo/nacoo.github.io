@@ -64,4 +64,4 @@ exclude:
 #   - vendor/gems/
 #   - vendor/ruby/
 
-theme: jekyll-theme-dinky
+theme: jekyll-theme-hacker
