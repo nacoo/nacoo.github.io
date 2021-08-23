@@ -2,10 +2,10 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>阅读笔记 on Nacoo Lab</title>
-    <link>http://example.org/posts/</link>
+    <link>https://nacoo.github.io/posts/</link>
     <description>Recent content in 阅读笔记 on Nacoo Lab</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Sun, 28 Sep 2014 00:00:00 +0000</lastBuildDate><atom:link href="http://example.org/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 28 Sep 2014 00:00:00 +0000</lastBuildDate><atom:link href="https://nacoo.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>
