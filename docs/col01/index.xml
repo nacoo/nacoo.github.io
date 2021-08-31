@@ -13,7 +13,7 @@
       <pubDate>Sat, 21 Aug 2021 00:42:40 +0800</pubDate>
       
       <guid>https://nacoo.github.io/docs/col01/page01/</guid>
-      <description>应用架构学习 应用架构（Application Architecture）是描述了IT系统功能和技术实现的内容。应用架构分为以下两个不同的层次：
+      <description>应用架构学习 #  应用架构（Application Architecture）是描述了IT系统功能和技术实现的内容。应用架构分为以下两个不同的层次：
 企业级的应用架构：企业层面的应用架构起到了统一规划、承上启下的作用，向上承接了企业战略发展方向和业务模式，向下规划和指导企业各个IT系统的定位和功能。在企业架构中，应用架构是最重要和工作量最大的部分，他包括了企业的应用架构蓝图、架构标准/原则、系统的边界和定义、系统间的关联关系等方面的内容。
 单个系统的应用架构：在开发或设计单一IT系统时，设计系统的主要模块和功能点，系统技术实现是从前端展示到业务处理逻辑，到后台数据是如何架构的。这方面的工作一般属于项目组，而不是企业架构的范畴，不过各个系统的架构设计需要遵循企业总体应用架构原则。
 应用架构主要以架构图的方式描述系统的组成和框架，一般从系统功能和系统技术层次两个架构视角进行设计。</description>
@@ -25,7 +25,7 @@
       <pubDate>Sat, 21 Aug 2021 00:42:40 +0800</pubDate>
       
       <guid>https://nacoo.github.io/docs/col01/page03/</guid>
-      <description>技术架构 从技术层面描述，主要是分层模型，例如持久层、数据层、逻辑层、应用层、表现层等，然后每层使用什么技术框架，例如Spring、hibernate、ioc、MVC、成熟的类库、中间件、WebService等，分别说明，要求这些技术能够将整个系统的主要实现概括。
+      <description>技术架构 #  从技术层面描述，主要是分层模型，例如持久层、数据层、逻辑层、应用层、表现层等，然后每层使用什么技术框架，例如Spring、hibernate、ioc、MVC、成熟的类库、中间件、WebService等，分别说明，要求这些技术能够将整个系统的主要实现概括。
 技术框架（technological Framework）是整个或部分技术系统的可重用设计，表现为一组抽象构件及构件实例间交互的方法;另一种定义认为，技术框架是可被技术开发者定制的应用骨架。前者是从应用方面而后者是从目的方面给出的定义。
 实例图：</description>
     </item>
@@ -36,7 +36,7 @@
       <pubDate>Sat, 21 Aug 2021 00:42:40 +0800</pubDate>
       
       <guid>https://nacoo.github.io/docs/col01/page02/</guid>
-      <description>数据架构学习 </description>
+      <description>数据架构学习 #  </description>
     </item>
     
   </channel>

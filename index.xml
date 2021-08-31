@@ -13,7 +13,7 @@
       <pubDate>Sun, 28 Sep 2014 00:00:00 +0000</pubDate>
       
       <guid>https://nacoo.github.io/posts/poetry/creating-a-new-theme/</guid>
-      <description>Introduction This tutorial will show you how to create a simple theme in Hugo. I assume that you are familiar with HTML, the bash command line, and that you are comfortable using Markdown to format content. I&amp;rsquo;ll explain how Hugo uses templates and how you can organize your templates to create a theme. I won&amp;rsquo;t cover using CSS to style your theme.
+      <description>Introduction #  This tutorial will show you how to create a simple theme in Hugo. I assume that you are familiar with HTML, the bash command line, and that you are comfortable using Markdown to format content. I&amp;rsquo;ll explain how Hugo uses templates and how you can organize your templates to create a theme. I won&amp;rsquo;t cover using CSS to style your theme.
 We&amp;rsquo;ll start with creating a new site with a very basic template.</description>
     </item>
     
@@ -23,7 +23,7 @@ We&amp;rsquo;ll start with creating a new site with a very basic template.</desc
       <pubDate>Sun, 28 Sep 2014 00:00:00 +0000</pubDate>
       
       <guid>https://nacoo.github.io/posts/webchart/creating-a-new-theme/</guid>
-      <description>Introduction This tutorial will show you how to create a simple theme in Hugo. I assume that you are familiar with HTML, the bash command line, and that you are comfortable using Markdown to format content. I&amp;rsquo;ll explain how Hugo uses templates and how you can organize your templates to create a theme. I won&amp;rsquo;t cover using CSS to style your theme.
+      <description>Introduction #  This tutorial will show you how to create a simple theme in Hugo. I assume that you are familiar with HTML, the bash command line, and that you are comfortable using Markdown to format content. I&amp;rsquo;ll explain how Hugo uses templates and how you can organize your templates to create a theme. I won&amp;rsquo;t cover using CSS to style your theme.
 We&amp;rsquo;ll start with creating a new site with a very basic template.</description>
     </item>
     
@@ -33,7 +33,7 @@ We&amp;rsquo;ll start with creating a new site with a very basic template.</desc
       <pubDate>Mon, 10 Mar 2014 00:00:00 +0000</pubDate>
       
       <guid>https://nacoo.github.io/posts/poetry/migrate-from-jekyll/</guid>
-      <description>Move static content to static Jekyll has a rule that any directory not starting with _ will be copied as-is to the _site output. Hugo keeps all static content under static. You should therefore move it all there. With Jekyll, something that looked like
+      <description>Move static content to static #  Jekyll has a rule that any directory not starting with _ will be copied as-is to the _site output. Hugo keeps all static content under static. You should therefore move it all there. With Jekyll, something that looked like
 ▾ &amp;lt;root&amp;gt;/ ▾ images/ logo.png  should become
 ▾ &amp;lt;root&amp;gt;/ ▾ static/ ▾ images/ logo.png  Additionally, you&amp;rsquo;ll want any files that should reside at the root (such as CNAME) to be moved to static.</description>
     </item>
@@ -44,7 +44,7 @@ We&amp;rsquo;ll start with creating a new site with a very basic template.</desc
       <pubDate>Mon, 10 Mar 2014 00:00:00 +0000</pubDate>
       
       <guid>https://nacoo.github.io/posts/webchart/migrate-from-jekyll/</guid>
-      <description>Move static content to static Jekyll has a rule that any directory not starting with _ will be copied as-is to the _site output. Hugo keeps all static content under static. You should therefore move it all there. With Jekyll, something that looked like
+      <description>Move static content to static #  Jekyll has a rule that any directory not starting with _ will be copied as-is to the _site output. Hugo keeps all static content under static. You should therefore move it all there. With Jekyll, something that looked like
 ▾ &amp;lt;root&amp;gt;/ ▾ images/ logo.png  should become
 ▾ &amp;lt;root&amp;gt;/ ▾ static/ ▾ images/ logo.png  Additionally, you&amp;rsquo;ll want any files that should reside at the root (such as CNAME) to be moved to static.</description>
     </item>
@@ -55,7 +55,7 @@ We&amp;rsquo;ll start with creating a new site with a very basic template.</desc
       <pubDate>Sat, 21 Aug 2021 00:42:40 +0800</pubDate>
       
       <guid>https://nacoo.github.io/docs/col01/page01/</guid>
-      <description>应用架构学习 应用架构（Application Architecture）是描述了IT系统功能和技术实现的内容。应用架构分为以下两个不同的层次：
+      <description>应用架构学习 #  应用架构（Application Architecture）是描述了IT系统功能和技术实现的内容。应用架构分为以下两个不同的层次：
 企业级的应用架构：企业层面的应用架构起到了统一规划、承上启下的作用，向上承接了企业战略发展方向和业务模式，向下规划和指导企业各个IT系统的定位和功能。在企业架构中，应用架构是最重要和工作量最大的部分，他包括了企业的应用架构蓝图、架构标准/原则、系统的边界和定义、系统间的关联关系等方面的内容。
 单个系统的应用架构：在开发或设计单一IT系统时，设计系统的主要模块和功能点，系统技术实现是从前端展示到业务处理逻辑，到后台数据是如何架构的。这方面的工作一般属于项目组，而不是企业架构的范畴，不过各个系统的架构设计需要遵循企业总体应用架构原则。
 应用架构主要以架构图的方式描述系统的组成和框架，一般从系统功能和系统技术层次两个架构视角进行设计。</description>
@@ -67,7 +67,7 @@ We&amp;rsquo;ll start with creating a new site with a very basic template.</desc
       <pubDate>Sat, 21 Aug 2021 00:42:40 +0800</pubDate>
       
       <guid>https://nacoo.github.io/docs/col01/page03/</guid>
-      <description>技术架构 从技术层面描述，主要是分层模型，例如持久层、数据层、逻辑层、应用层、表现层等，然后每层使用什么技术框架，例如Spring、hibernate、ioc、MVC、成熟的类库、中间件、WebService等，分别说明，要求这些技术能够将整个系统的主要实现概括。
+      <description>技术架构 #  从技术层面描述，主要是分层模型，例如持久层、数据层、逻辑层、应用层、表现层等，然后每层使用什么技术框架，例如Spring、hibernate、ioc、MVC、成熟的类库、中间件、WebService等，分别说明，要求这些技术能够将整个系统的主要实现概括。
 技术框架（technological Framework）是整个或部分技术系统的可重用设计，表现为一组抽象构件及构件实例间交互的方法;另一种定义认为，技术框架是可被技术开发者定制的应用骨架。前者是从应用方面而后者是从目的方面给出的定义。
 实例图：</description>
     </item>
@@ -78,7 +78,7 @@ We&amp;rsquo;ll start with creating a new site with a very basic template.</desc
       <pubDate>Sat, 21 Aug 2021 00:42:40 +0800</pubDate>
       
       <guid>https://nacoo.github.io/docs/col01/page02/</guid>
-      <description>数据架构学习 </description>
+      <description>数据架构学习 #  </description>
     </item>
     
     <item>
@@ -107,12 +107,11 @@ This document is a brief primer on using Go templates.</description>
       <pubDate>Wed, 02 Apr 2014 00:00:00 +0000</pubDate>
       
       <guid>https://nacoo.github.io/posts/poetry/hugoisforlovers/</guid>
-      <description>Step 1. Install Hugo Go to Hugo releases and download the appropriate version for your OS and architecture.
+      <description>Step 1. Install Hugo #  Go to Hugo releases and download the appropriate version for your OS and architecture.
 Save it somewhere specific as we will be using it in the next step.
 More complete instructions are available at Install Hugo
-Step 2. Build the Docs Hugo has its own example site which happens to also be the documentation site you are reading right now.
-Follow the following steps:
- Clone the Hugo repository Go into the repo Run hugo in server mode and build the docs Open your browser to http://localhost:1313  Corresponding pseudo commands:</description>
+Step 2. Build the Docs #  Hugo has its own example site which happens to also be the documentation site you are reading right now.
+Follow the following steps:</description>
     </item>
     
     <item>
@@ -121,12 +120,11 @@ Follow the following steps:
       <pubDate>Wed, 02 Apr 2014 00:00:00 +0000</pubDate>
       
       <guid>https://nacoo.github.io/posts/webchart/hugoisforlovers/</guid>
-      <description>Step 1. Install Hugo Go to Hugo releases and download the appropriate version for your OS and architecture.
+      <description>Step 1. Install Hugo #  Go to Hugo releases and download the appropriate version for your OS and architecture.
 Save it somewhere specific as we will be using it in the next step.
 More complete instructions are available at Install Hugo
-Step 2. Build the Docs Hugo has its own example site which happens to also be the documentation site you are reading right now.
-Follow the following steps:
- Clone the Hugo repository Go into the repo Run hugo in server mode and build the docs Open your browser to http://localhost:1313  Corresponding pseudo commands:</description>
+Step 2. Build the Docs #  Hugo has its own example site which happens to also be the documentation site you are reading right now.
+Follow the following steps:</description>
     </item>
     
     <item>
@@ -135,9 +133,9 @@ Follow the following steps:
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://nacoo.github.io/posts/webchart/aplin-linxu/</guid>
-      <description>Aplin Linux 基本操作  安装sudo  $ apk add sudo  把指定的用户添加到wheel组，只有在wheel组的用户才有权限访问sudo命令  $ addgroup [username] wheel  去掉执行sudo命令时每次输入烦人的密码  $ visudo 找到行&amp;quot;# %wheel ALL=(ALL) NOPASSWD: ALL&amp;quot;去掉&#39;#&amp;lsquo;号取消注释，:wq保存。
+      <description>Aplin Linux 基本操作 #   安装sudo  $ apk add sudo  把指定的用户添加到wheel组，只有在wheel组的用户才有权限访问sudo命令  $ addgroup [username] wheel  去掉执行sudo命令时每次输入烦人的密码  $ visudo 找到行&amp;quot;# %wheel ALL=(ALL) NOPASSWD: ALL&amp;quot;去掉&#39;#&amp;lsquo;号取消注释，:wq保存。
  退出root，退出登录的用户，登录被添加到wheel组的用户，执行  $ sudo -v 给alpine安装curl
-1.设置国内镜像源   sed -i &#39;s/dl-cdn.alpinelinux.org/mirrors.ustc.edu.cn/g&#39; /etc/apk/repositories 2.安装curl apk add curl </description>
+1.设置国内镜像源 #  #   sed -i &#39;s/dl-cdn.alpinelinux.org/mirrors.ustc.edu.cn/g&#39; /etc/apk/repositories 2.安装curl #  apk add curl </description>
     </item>
     
   </channel>

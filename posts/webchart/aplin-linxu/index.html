@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Aplin Linux 基本操作 #   安装sudo  $ apk add sudo  把指定的用户添加到wheel组，只有在wheel组的用户才有权限访问sudo命令  $ addgroup [username] wheel  去掉执行sudo命令时每次输入烦人的密码  $ visudo 找到行&quot;# %wheel ALL=(ALL) NOPASSWD: ALL&quot;去掉&#39;#&lsquo;号取消注释，:wq保存。
+ 退出root，退出登录的用户，登录被添加到wheel组的用户，执行  $ sudo -v 给alpine安装curl
+1.设置国内镜像源 #  #   sed -i &#39;s/dl-cdn.alpinelinux.org/mirrors.ustc.edu.cn/g&#39; /etc/apk/repositories 2.安装curl #  apk add curl ">
+<meta name="theme-color" content="#FFFFFF"><meta property="og:title" content="Aplin" />
+<meta property="og:description" content="Aplin Linux 基本操作 #   安装sudo  $ apk add sudo  把指定的用户添加到wheel组，只有在wheel组的用户才有权限访问sudo命令  $ addgroup [username] wheel  去掉执行sudo命令时每次输入烦人的密码  $ visudo 找到行&quot;# %wheel ALL=(ALL) NOPASSWD: ALL&quot;去掉&#39;#&lsquo;号取消注释，:wq保存。
+ 退出root，退出登录的用户，登录被添加到wheel组的用户，执行  $ sudo -v 给alpine安装curl
+1.设置国内镜像源 #  #   sed -i &#39;s/dl-cdn.alpinelinux.org/mirrors.ustc.edu.cn/g&#39; /etc/apk/repositories 2.安装curl #  apk add curl " />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://nacoo.github.io/posts/webchart/aplin-linxu/" /><meta property="article:section" content="posts" />
+
+
+
+<title>Aplin | Nacoo Lab</title>
+<link rel="manifest" href="/manifest.json">
+<link rel="icon" href="/favicon.png" type="image/x-icon">
+<link rel="stylesheet" href="/book.min.8599444fcc48ee6b435b5b62c955ab7d914fa1e2a453df90c4b97cc9769665d1.css" integrity="sha256-hZlET8xI7mtDW1tiyVWrfZFPoeKkU9&#43;QxLl8yXaWZdE=" crossorigin="anonymous">
+  <script defer src="/flexsearch.min.js"></script>
+  <script defer src="/en.search.min.f4596a25429d2b1d042b443b643fdaf13968eece918c0fd88380455c64430cd9.js" integrity="sha256-9FlqJUKdKx0EK0Q7ZD/a8Tlo7s6RjA/Yg4BFXGRDDNk=" crossorigin="anonymous"></script>
+<!--
+Made with Book Theme
+https://github.com/alex-shpak/hugo-book
+-->
+  
+</head>
+<body dir="ltr">
+  <input type="checkbox" class="hidden toggle" id="menu-control" />
+  <input type="checkbox" class="hidden toggle" id="toc-control" />
+  <main class="container flex">
+    <aside class="book-menu">
+      <div class="book-menu-content">
+        
+  <nav>
+<h2 class="book-brand">
+  <a class="flex align-center" href="/"><span>Nacoo Lab</span>
+  </a>
+</h2>
+
+
+<div class="book-search">
+  <input type="text" id="book-search-input" placeholder="搜索" aria-label="搜索" maxlength="64" data-hotkeys="s/" />
+  <div class="book-search-spinner hidden"></div>
+  <ul id="book-search-results"></ul>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+  
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="https://nacoo.github.io/docs/col01/" class="">架构设计</a>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="https://nacoo.github.io/docs/col01/page01/" class="">应用架构</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="https://nacoo.github.io/docs/col01/page03/" class="">技术架构</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="https://nacoo.github.io/docs/col01/page02/" class="">数据架构</a>
+  
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+  </ul>
+
+
+
+
+
+
+
+
+
+
+
+  
+<ul>
+  
+  <li>
+    <a href="/posts/" >
+        阅读笔记
+      </a>
+  </li>
+  
+  <li>
+    <a href="/posts/webchart/" >
+        公众号文章
+      </a>
+  </li>
+  
+  <li>
+    <a href="/posts/poetry/" >
+        小诗集
+      </a>
+  </li>
+  
+</ul>
+
+
+
+
+
+
+</nav>
+
+
+
+
+  <script>(function(){var a=document.querySelector("aside .book-menu-content");addEventListener("beforeunload",function(b){localStorage.setItem("menu.scrollTop",a.scrollTop)}),a.scrollTop=localStorage.getItem("menu.scrollTop")})()</script>
+
+
+ 
+      </div>
+    </aside>
+
+    <div class="book-page">
+      <header class="book-header">
+        
+  <div class="flex align-center justify-between">
+  <label for="menu-control">
+    <img src="/svg/menu.svg" class="book-icon" alt="Menu" />
+  </label>
+
+  <strong>Aplin</strong>
+
+  <label for="toc-control">
+    
+    <img src="/svg/toc.svg" class="book-icon" alt="Table of Contents" />
+    
+  </label>
+</div>
+
+
+  
+  <aside class="hidden clearfix">
+    
+  
+<nav id="TableOfContents">
+  <ul>
+    <li><a href="#aplin-linux-基本操作">Aplin Linux 基本操作</a>
+      <ul>
+        <li><a href="#1设置国内镜像源">1.设置国内镜像源</a></li>
+        <li><a href="#heading"></a></li>
+        <li><a href="#2安装curl">2.安装curl</a></li>
+      </ul>
+    </li>
+  </ul>
+</nav>
+
+
+
+  </aside>
+  
+ 
+      </header>
+
+      
+      
+<article class="markdown">
+  <h1>
+    <a href="/posts/webchart/aplin-linxu/">Aplin</a>
+  </h1>
+  
+
+
+  
+
+  
+
+
+
+<h2 id="aplin-linux-基本操作">
+  Aplin Linux 基本操作
+  <a class="anchor" href="#aplin-linux-%e5%9f%ba%e6%9c%ac%e6%93%8d%e4%bd%9c">#</a>
+</h2>
+<ol>
+<li>安装sudo</li>
+</ol>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">$ apk add sudo
+</code></pre></div><ol>
+<li>把指定的用户添加到wheel组，只有在wheel组的用户才有权限访问sudo命令</li>
+</ol>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">$ addgroup <span style="color:#f92672">[</span>username<span style="color:#f92672">]</span> wheel
+</code></pre></div><ol>
+<li>去掉执行sudo命令时每次输入烦人的密码</li>
+</ol>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">$ visudo
+</code></pre></div><p>找到行&quot;# %wheel ALL=(ALL) NOPASSWD: ALL&quot;去掉'#&lsquo;号取消注释，:wq保存。</p>
+<ol>
+<li>退出root，退出登录的用户，登录被添加到wheel组的用户，执行</li>
+</ol>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">$ sudo -v
+</code></pre></div><p>给alpine安装curl</p>
+<h3 id="1设置国内镜像源">
+  1.设置国内镜像源
+  <a class="anchor" href="#1%e8%ae%be%e7%bd%ae%e5%9b%bd%e5%86%85%e9%95%9c%e5%83%8f%e6%ba%90">#</a>
+</h3>
+<h3 id="heading">
+  
+  <a class="anchor" href="#heading">#</a>
+</h3>
+<pre><code> sed -i 's/dl-cdn.alpinelinux.org/mirrors.ustc.edu.cn/g' /etc/apk/repositories
+</code></pre><h3 id="2安装curl">
+  2.安装curl
+  <a class="anchor" href="#2%e5%ae%89%e8%a3%85curl">#</a>
+</h3>
+<pre><code>apk add curl
+</code></pre></article>
+ 
+      
+
+      <footer class="book-footer">
+        
+  <div class="flex flex-wrap justify-between">
+
+
+
+
+
+</div>
+
+
+
+  <script>(function(){function a(c){const a=window.getSelection(),b=document.createRange();b.selectNodeContents(c),a.removeAllRanges(),a.addRange(b)}document.querySelectorAll("pre code").forEach(b=>{b.addEventListener("click",function(c){a(b.parentElement),navigator.clipboard&&navigator.clipboard.writeText(b.parentElement.textContent)})})})()</script>
+
+
+ 
+        
+      </footer>
+
+      
+  
+  <div class="book-comments">
+
+</div>
+  
+ 
+
+      <label for="menu-control" class="hidden book-menu-overlay"></label>
+    </div>
+
+    
+    <aside class="book-toc">
+      <div class="book-toc-content">
+        
+  
+<nav id="TableOfContents">
+  <ul>
+    <li><a href="#aplin-linux-基本操作">Aplin Linux 基本操作</a>
+      <ul>
+        <li><a href="#1设置国内镜像源">1.设置国内镜像源</a></li>
+        <li><a href="#heading"></a></li>
+        <li><a href="#2安装curl">2.安装curl</a></li>
+      </ul>
+    </li>
+  </ul>
+</nav>
+
+
+ 
+      </div>
+    </aside>
+    
+  </main>
+
+  
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
